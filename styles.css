@@ -1,0 +1,550 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #f9ae17;
+  --secondary-color: #031f3d;
+  --neutral-black: #07090b;
+  --neutral-white: #ffffff;
+}
+
+.navbar {
+  height: 96px;
+  background: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  padding: 20px 310px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbarList {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  font-weight: 700;
+  color: var(--neutral-white);
+  font-size: 16px;
+  width: 70%;
+}
+
+.navLink {
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navLinkBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.navBtn {
+  font-weight: 700;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--neutral-white);
+  cursor: pointer;
+}
+
+.navBtnRegister {
+  background: none;
+  border: solid var(--primary-color) 1px;
+  color: var(--primary-color);
+}
+
+.bannerSectionOne {
+  background-image: url("./recursos/atf-banner.jpg");
+  padding: 0px 4% 0px 310px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bannerSectionTwo {
+  background-image: url("./recursos/Section-2.jpg");
+  padding: 40px 310px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bannerSectionThree {
+  background-image: url("./recursos/Section-3.jpg");
+  padding: 40px 310px 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bannerSectionFour {
+  background-image: url("./recursos/Section-4.jpg");
+  padding: 114px 310px 217px 310px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bannerSectionFive {
+  background-image: url("./recursos/Section-5.jpg");
+  padding: 0px 310px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bannerContent {
+  gap: 57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 75px 0px;
+}
+
+.bannerTextContent {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: start;
+  padding-bottom: 100px;
+}
+
+.bannerParagraph {
+  color: var(--neutral-black);
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.yellowText {
+  color: var(--primary-color);
+}
+.whiteText {
+  color: var(--neutral-white);
+}
+
+.bannerParagOne {
+  font-size: 56px;
+  line-height: 72px;
+}
+
+.bannerParagTwo {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.bracketSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerContainerTwo {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  align-items: center;
+}
+
+.bracketSectionTwo {
+  object-fit: cover;
+}
+.mobileBars {
+  display: none;
+}
+.bracketSectionTwo img {
+  height: 100%;
+  width: 100%;
+  transform: translateY(50px);
+}
+
+.bannerSectionTwoParagOne {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+.bannerSectionTwoParagTwo {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.bannerTextContentTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+}
+
+.bannerContainerThree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bannerTextContentThree {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.bannerTextContentThree li {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  min-width: 600px;
+}
+
+.bannerContainerThree ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.bannerContainerFour {
+  display: flex;
+
+  max-width: 1700px;
+  flex-direction: column;
+  padding: 60px 140px;
+  border-radius: 32px;
+  gap: 40px;
+  background-color: #053f7a4d;
+  text-align: center;
+  margin: auto;
+}
+.bannerContainerFour h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--neutral-white);
+}
+.bannerList {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.numberList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--neutral-white);
+  padding: 12px 20px;
+  border-radius: 100px;
+}
+.imagesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(117px, 1fr));
+  justify-items: center;
+  align-items: center;
+  grid-gap: 40px 56px;
+}
+.gridItem {
+  padding: 16px;
+  background-color: #053f7a4d;
+  border: solid #085eb74d 1px;
+  height: 117px;
+  width: 117px;
+  border-radius: 8px;
+}
+.gridItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.bannerContainerFive {
+  display: flex;
+  align-items: center;
+  gap: 91px;
+}
+.bannerTextContentFive {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.appImgs {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer {
+  height: 117px;
+  color: var(--neutral-white);
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1024px) {
+  .navbarList,
+  .footer {
+    font-size: 10px;
+  }
+
+  .bannerParagOne,
+  .bannerParagTwo {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .bannerTextContent {
+    gap: 28px;
+  }
+
+  .bracketSection img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .appImgs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bannerSectionTwoParagOne {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .numberList {
+    padding: 5px 16px;
+  }
+
+  .bannerSectionThree {
+    padding: 0 310px;
+  }
+
+  .bannerTextContentThree {
+    padding-bottom: 30px;
+    width: 40%;
+  }
+
+  .bannerTextContentThree li {
+    font-size: 12px;
+  }
+
+  .navBtn,
+  .navLink {
+    padding: 12px;
+  }
+
+  .navbar,
+  .bannerSectionOne,
+  .bannerSectionTwo,
+  .bannerSectionThree,
+  .bannerSectionFive {
+    padding: 0 100px;
+  }
+
+  .bannerSectionFour {
+    padding: 114px 100px 217px 100px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px y hasta 1023px) */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .bannerParagOne,
+  .bannerParagTwo {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .bannerSectionTwoParagOne {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .bannerSectionTwoParagTwo {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .bannerContainerFour {
+    padding: 45px 60px;
+  }
+  .navbarList,
+  .footer {
+    font-size: 10px;
+  }
+
+  .bannerTextContent {
+    gap: 28px;
+  }
+
+  .bracketSection img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .appImgs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .numberList {
+    padding: 5px 16px;
+  }
+
+  .bannerSectionThree {
+    padding: 0 310px;
+  }
+
+  .bannerTextContentThree {
+    padding-bottom: 30px;
+    width: 40%;
+  }
+
+  .bannerTextContentThree li {
+    font-size: 12px;
+  }
+
+  .navBtn,
+  .navLink {
+    padding: 5px;
+  }
+
+  .navbar,
+  .bannerSectionOne,
+  .bannerSectionTwo,
+  .bannerSectionThree,
+  .bannerSectionFive {
+    padding: 15px 25px;
+  }
+
+  .bannerSectionFour {
+    padding: 114px 100px 217px 100px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px y hasta 767px) */
+@media only screen and (max-width: 767px) {
+  .bannerParagOne,
+  .bannerParagTwo {
+    font-size: 21px;
+    line-height: 35px;
+  }
+
+  .bannerSectionTwoParagOne {
+    font-size: 23px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .bannerSectionTwoParagTwo {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .bannerContainerFour {
+    padding: 45px 30px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+  .navbarList {
+    display: none;
+  }
+  .mobileBars {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .bannerContent {
+    text-align: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .bannerTextContent {
+    gap: 28px;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+  .bannerContainerTwo,
+  .bannerContainerFive {
+    flex-direction: column-reverse;
+    padding-top: 40px;
+  }
+  .bannerTextContentTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .bannerContainerThree {
+    flex-direction: column;
+  }
+  .bracketSection img {
+    width: 100%;
+    height: 100%;
+  }
+  .bannerTextContentFive {
+    align-items: center;
+  }
+
+  .appImgs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .numberList {
+    padding: 5px 16px;
+  }
+
+  .bannerSectionThree {
+    padding: 0 310px;
+  }
+
+  .bannerTextContentThree {
+    padding-bottom: 30px;
+  }
+
+  .bannerTextContentThree li {
+    font-size: 18px;
+  }
+  .footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
+    height: 70px;
+  }
+
+  .navbar,
+  .bannerSectionOne,
+  .bannerSectionTwo,
+  .bannerSectionThree,
+  .bannerSectionFive {
+    padding: 0px 15px;
+  }
+
+  .bannerSectionFour {
+    padding: 20px 30px 217px 30px;
+  }
+  .bannerTextContentThree li {
+    min-width: 30%;
+  }
+  .bannerContainerFour h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
