@@ -76,33 +76,33 @@
 }
 
 .bannerSectionOne {
-  background-image: url("./recursos/atf-banner.jpg");
+  background-image: url("./assets/atf-banner.jpg");
   padding: 0px 4% 0px 310px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .bannerSectionTwo {
-  background-image: url("./recursos/Section-2.jpg");
+  background-image: url("./assets/Section-2.jpg");
   padding: 40px 310px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .bannerSectionThree {
-  background-image: url("./recursos/Section-3.jpg");
+  background-image: url("./assets/Section-3.jpg");
   padding: 40px 310px 0px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .bannerSectionFour {
-  background-image: url("./recursos/Section-4.jpg");
+  background-image: url("./assets/Section-4.jpg");
   padding: 114px 310px 217px 310px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .bannerSectionFive {
-  background-image: url("./recursos/Section-5.jpg");
+  background-image: url("./assets/Section-5.jpg");
   padding: 0px 310px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -380,7 +380,7 @@
     line-height: 22px;
   }
   .bannerSectionTwoParagTwo {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 18px;
   }
   .bannerContainerFour {
@@ -454,8 +454,8 @@
     text-align: center;
   }
   .bannerSectionTwoParagTwo {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 18px;
     text-align: center;
   }
   .bannerContainerFour {
