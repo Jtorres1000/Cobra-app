@@ -1,6 +1,0 @@
-Branding colors:
-
-primary color yellow: #F9AE17 
-secondary color blue: #031F3D
-neutral color black: #07090B
-neutral color white: #FFFFFF
